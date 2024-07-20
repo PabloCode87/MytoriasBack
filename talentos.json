@@ -1,0 +1,2930 @@
+[
+  {
+    "nombre": "All-Terrain Driver",
+    "tier": 1,
+    "activacion": "Passive",
+    "ranked": false,
+    "clases": ["Ace", "Gunslinger", "Rogue"],
+    "descripcion": "No sufres penalti o -1DV por usar la habilidad de Driving, en cualquier terreno."
+  },
+  {
+    "nombre": "Apothecary",
+    "tier": 1,
+    "activacion": "Passive",
+    "ranked": true,
+    "clases": ["Alchemist", "Cleric", "Druid", "Wizard"],
+    "descripcion": "Cuando un paciente tuyo se cura por descanso, se cura 1 Herida extra por doble de rango en Apothecary."
+  },
+  {
+    "nombre": "Armor Master",
+    "tier": 1,
+    "activacion": "Passive",
+    "ranked": false,
+    "clases": ["Cleric", "Fighter", "Paladin"],
+    "descripcion": "Aumenta la proteccion de tu armadura en +1"
+  },
+  {
+    "nombre": "Black Market Contacts",
+    "tier": 1,
+    "activacion": "Active (Incidental)",
+    "ranked": true,
+    "clases": ["Necromancer", "Gunslinger", "Warlock", "Wizard"],
+    "descripcion": "Cuando compres bienes ilegales, puedes reducir la rareza en 1 por cada rango en Black-Market Contacts., aumentando un +50% al coste base por reduccion."
+  },
+  {
+    "nombre": "Bought Info",
+    "tier": 1,
+    "activacion": "Active (Action)",
+    "ranked": false,
+    "clases": ["All"],
+    "descripcion": "Cuando hagas una tirada de knowledge, puedes gastar 50 veces la dificultad del check para superar con 1 exito y conseguir esa info, en vez de lanzar. A discreccion del GM por si puede usar o no en ese momento."
+  },
+  {
+    "nombre": "Brace",
+    "tier": 1,
+    "activacion": "Active (Manuever)",
+    "ranked": true,
+    "clases": ["All"],
+    "descripcion": "Puedes quitarte -1 DV por rango en Brace en tiradas como, cambio de condiciones, inclemencias climaticas, superficies inestables, alta o baja gravedad etc."
+  },
+  {
+    "nombre": "Bullrush",
+    "tier": 1,
+    "activacion": "Active (Incidental)",
+    "ranked": false,
+    "clases": ["Berserker", "Fighter", "Monk"],
+    "descripcion": "Cuando ataques con Brawl, Melee (Light), o Melee (Heavy), despues de haber usado una maniobra de movimiento hasta ponerte a C/C, puedes gastar 3 VE o 1CR, para mover 10 pies al enemigo (Puedes gastar mas y moverlo más lejos)."
+  },
+  {
+    "nombre": "Call 'Em",
+    "tier": 1,
+    "activacion": "Passive",
+    "ranked": false,
+    "clases": ["All"],
+    "descripcion": "Resta -1DV a los checks de combate por la maniobra apuntar."
+  },
+  {
+    "nombre": "Challenge!",
+    "tier": 1,
+    "activacion": "Active (Manuever)",
+    "ranked": true,
+    "clases": ["Ace", "Fighter","Paladin","Monk"],
+    "descripcion": "Una vez por encuentro, eliges un numero de adversarios en 15’ no superior a los rangos que tengas en Challenge!. Hasta el final del encuentro o que tu personaje quede incapacitado, los enemigos añaden +1VE contra ti y -2DV contra otros personajes."
+  },
+  {
+    "nombre": "Clever Retort",
+    "tier": 1,
+    "activacion": "Active (Incidental, Out of Turn)",
+    "ranked": false,
+    "clases": ["Bard","Necromancer","Rogue","Sorcerer","Warlock","Wizard"],
+    "descripcion": "Una vez por encuentro, puedes usar este talento para agregar -1DV a la tirada social de otro personaje."
+  },
+  {
+    "nombre": "Component Casting",
+    "tier": 1,
+    "activacion": "Active (Incidental)",
+    "ranked": false,
+    "clases": ["Bard","Cleric","Druid","Necromancer","Sorcerer","Warlock","Wizard"],
+    "descripcion": "Cuando castees, puedes consumir un objeto fisico y agregar +1VE a la tirada. Este objeto no tiene porque ser caro o raro, pero si tematico para el hechizo. A discreccion del GM."
+  },
+  {
+    "nombre": "Creative Design",
+    "tier": 1,
+    "activacion": "Passive",
+    "ranked": true,
+    "clases": ["All"],
+    "descripcion": "Como resultado de Alchemy o Mechanics para construir, puedes agregar +x resultado d6=1, por cada rango en Creative Design"
+  },
+  {
+    "nombre": "Customer Service Experience",
+    "tier": 1,
+    "activacion": "Active (Incidental)",
+    "ranked": true,
+    "clases": ["All"],
+    "descripcion": "Ignora -1DV por cada rango en Customer Service."
+  },
+  {
+    "nombre": "Dark Insight",
+    "tier": 1,
+    "activacion": "Active (Incidental)",
+    "ranked": false,
+    "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+    "descripcion": "Cuando un hechizo añada cantidad a una cualidad = Knowledge Lore, puedes usar los rangos de Knowledge Forbidden en vez de Lore."
+  },
+  {
+      "nombre": "Deep Pockets",
+      "tier": 1,
+      "activacion": "Active (Maneuver)",
+      "ranked": false,
+      "clases": ["Ace", "Gunslinger", "Rogue"],
+      "descripcion": "Una vez por sesión, tu personaje saca un objeto no superior a 100 de oro, de tamaño pequeño encumbrance 0 o 1 máximo, de algún bolsillo, mochila, etc."
+  },
+  {
+      "nombre": "Desperate Recovery",
+      "tier": 1,
+      "activacion": "Passive",
+      "ranked": false,
+      "clases": ["All"],
+      "descripcion": "Antes de recuperar estrés después del encuentro, si tu estrés está por debajo de la mitad, recupera 2 adicionales."
+  },
+  {
+      "nombre": "Disenfrancisto",
+      "tier": 1,
+      "activacion": "Passive",
+      "ranked": false,
+      "clases": ["All"],
+      "descripcion": "Consigues Streetwise o Survival como profesional, tu personaje puede recolectar un favor menor de otro Disenfrancisto o rata de callejón, incluso aunque este no le debiera un favor previo."
+  },
+  {
+      "nombre": "Duelist",
+      "tier": 1,
+      "activacion": "Passive",
+      "ranked": false,
+      "clases": ["Figther", "Gunslinger", "Ranger", "Rogue"],
+      "descripcion": "Tu personaje añade +1VE cuando pelea contra un único oponente y añade -1DV cuando pelea contra 3+ oponentes."
+  },
+  {
+      "nombre": "Dungeoneer",
+      "tier": 1,
+      "activacion": "Passive",
+      "ranked": true,
+      "clases": ["All"],
+      "descripcion": "Después de que tu personaje haga una tirada de Perception, Vigilance, o Knowledge (Adventuring) para identificar, comprobar, etc. en una cueva o mazmorra, puedes eliminar -1DV por nivel o puedes agregar +x resultado d6=1, por nivel en Dungeoneer."
+  },
+  {
+      "nombre": "Durable",
+      "tier": 1,
+      "activacion": "Passive",
+      "ranked": true,
+      "clases": ["All"],
+      "descripcion": "Reduce la tirada Criticar en la tabla en -10 por cada rango en Durable hasta un mínimo de 01."
+  },
+  {
+      "nombre": "Elementalist",
+      "tier": 1,
+      "activacion": "Passive",
+      "ranked": false,
+      "clases": ["Druid", "Sorcerer", "Wizard"],
+      "descripcion": "Cuando adquieres este talento, escoge un daño elemental, y en tus hechizos de ataque, siempre estará agregada esa cualidad de forma gratuita."
+  },
+  {
+      "nombre": "Ensorcelled",
+      "tier": 1,
+      "activacion": "Active (Incidental)",
+      "ranked": false,
+      "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+      "descripcion": "Si tu personaje tiene un rango en cualquier habilidad mágica, una vez por encuentro, puedes usar este talento para agregar +1VE en una tirada social. Usando tu magia para tu beneficio, otros detectan algo raro pero no lo detectan como algo sobrenatural."
+  },
+  {
+        "nombre": "Extra Ammo",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Gunslinger", "Ranger"],
+        "descripcion": "No puedes quedarte sin munición debido a PF, sin embargo, sí puedes quedarte sin munición por la cualidad Limited Ammo."
+    },
+    {
+        "nombre": "Finesse",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Bard", "Fighter", "Gunslinger", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Cuando ataques con Brawl o Melee (Light) puedes usar Agility en vez de Brawn."
+    },
+    {
+        "nombre": "Forager",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Druid", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Tu personaje se quita -2DV de cualquier skill check para buscar comida, agua o refugio, aparte le toma la mitad de tiempo de lo normal."
+    },
+    {
+        "nombre": "Former Professor",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Ganas 1 Knowledge skill de tu elección como profesional, una vez por sesión puedes cobrarte el favor de alguien de una institución o maestro, para que te devuelva ese favor. (Invéntatelo)"
+    },
+    {
+        "nombre": "Grit",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cada rango de Grit incrementa el límite de estrés en 2."
+    },
+    {
+        "nombre": "Hamstring Shot",
+        "tier": 1,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Gunslinger", "Ranger"],
+        "descripcion": "Una vez por ronda, puedes usar este talento para hacer un ataque a distancia (rango del arma) contra un enemigo no vehículo. Reduce a la mitad el daño infligido antes de la protección. El objetivo está inmovilizado hasta el fin de su siguiente turno."
+    },
+    {
+        "nombre": "Hand on The Throttle",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Una vez por ronda, mientras conduces un vehículo, tu personaje puede +-1 la velocidad del vehículo, hasta un mínimo de 0 o máximo de la velocidad máxima del vehículo."
+    },
+    {
+        "nombre": "Hidden Storage",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Ganas un compartimento secreto en tu vehículo, que puede almacenar un encumbrance igual a los rangos en Hidden Storage."
+    },
+    {
+        "nombre": "Iaijutsu Training",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Bard", "Fighter", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "La primera vez en un encuentro que tu personaje saque su arma Melee, añade +2 al daño en ese turno."
+    },
+    {
+        "nombre": "Jump Up",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Bard", "Druid", "Fighter", "Monk", "Rogue"],
+        "descripcion": "Una vez por ronda, durante tu turno, puedes levantarte del suelo o de una posición sentada como incidental."
+    },
+    {
+        "nombre": "Knockout Punch",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Monk", "Fighter"],
+        "descripcion": "Tu personaje añade la cualidad Stun a Brawl checks igual 2 + rangos en Coordination (no se acumula con otras cualidades de Stun)."
+    },
+    {
+        "nombre": "Know Somebody",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, cuando vayas a comprar un bien legal, reduces la rareza de ese objeto en -1 por cada rango en Know Somebody."
+    },
+    {
+        "nombre": "Knowledge Specialization",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Elige una Knowledge skill, si sacas 1 CR añades +x E = rangos en Knowledge Specialization."
+    },
+    {
+        "nombre": "Let’s Ride",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Paladin", "Ranger"],
+        "descripcion": "Una vez por ronda durante tu turno, puedes montar/desmontar de un vehículo o animal, o moverte de una posición dentro del vehículo como incidental. En adición, si te caes desde 15 pies, no recibes daño y caes de pie."
+    },
+    {
+        "nombre": "Museum Worthy",
+        "tier": 1,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Necromancer", "Rogue", "Warlock", "Wizard"],
+        "descripcion": "Una vez por sesión, puedes hacer una tirada DC 3-4 de Knowledge para conseguir información de una reliquia, ruina o una parte de la historia."
+    },
+    {
+        "nombre": "One with Nature",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Druid", "Ranger"],
+        "descripcion": "Cuando estés en la naturaleza, haz una tirada Simple de Survival en vez de Disciplina o Cool para recuperar estrés al final del encuentro."
+    },
+    {
+        "nombre": "Painful Blow",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Cleric", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Cuando hagas un check de combate, +1DC. Si el enemigo sufre 1+ heridas, cada vez que haga una maniobra, sufre +2 estrés hasta el final del encuentro."
+    },
+    {
+        "nombre": "Parry",
+        "tier": 1,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando tu personaje reciba un ataque melee, antes de aplicar la protección, puedes sufrir 3 estrés, para reducir el daño en -2 + el número de rangos en parry. Necesitas un arma cuerpo a cuerpo."
+    },
+    {
+        "nombre": "Physician",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Alchemist", "Cleric", "Druid", "Paladin", "Wizard"],
+        "descripcion": "Cuando hagas un Medicine check para curar heridas, el objetivo se cura +1 de estrés por rangos de Physician."
+    },
+    {
+        "nombre": "Precision",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Druid", "Fighter", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Cuando hagas un ataque de Brawl o a distancia, puedes usar Cunning en vez de Brawn o Agility respectivamente."
+    },
+    {
+        "nombre": "Quick Draw",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Fighter", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Como incidental una vez por ronda en tu turno, puedes desenfundar o sacar un arma u objeto. También reduce Prepare rango en -1 hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Quick Strike",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace", "Alchemist", "Bard", "Fighter", "Gunslinger", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Tu personaje añade +1d8 a cualquier check de combate contra un enemigo que no haya actuado en este encuentro."
+    },
+    {
+        "nombre": "Rapid Reaction",
+        "tier": 1,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Tu personaje puede gastar +x estrés igual al rango en Rapid Reaction para añadir +x E en la tirada de Vigilance o Cool para iniciativa."
+    },
+    {
+        "nombre": "Rapid Recovery",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Recuperas +1 estrés adicional por cada rango de Rapid Recovery después del encuentro."
+    },
+    {
+        "nombre": "Reflect",
+        "tier": 1,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["Ace", "Alchemist", "Berserker", "Cleric", "Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Cuando tu personaje recibe un ataque a distancia, antes de aplicar la protección, puedes sufrir 3 de estrés y reducir el daño en -2 + rangos en Reflect. Para ello es necesario un escudo o algo apropiado a discreción del GM."
+    },
+    {
+        "nombre": "Resourceful Mechanic",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Tu personaje, cuando haga una tirada de Mechanics para reparar vida o estrés de un vehículo, cura +1 por cada rango en Resourceful Mechanic."
+    },
+    {
+        "nombre": "Second Wind",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Una vez por encuentro puedes curarte una cantidad de estrés igual a los rangos en Second Wind."
+    },
+    {
+        "nombre": "Shapeshifter",
+        "tier": 1,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Druid"],
+        "descripcion": "Una vez por encuentro, gastando 2 de estrés, tu personaje puede transformarse en una criatura animal, alimaña o bestia, de silueta 0 o 1 minion. El personaje ahora tiene los stats de esa criatura, durante 8 horas o la vida de la transformación quede a 0 y reviertas a tu ficha normal. Mientras estés transformado no puedes castear hechizos o usar habilidades activas que no sean de la ficha de la criatura. Las características físicas son de la criatura, mientras que las mentales son las tuyas propias. Puedes usar este talento x veces, donde x es igual a tu Primal skill."
+    },
+    {
+        "nombre": "Shield Slam",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando tu personaje ataca con un escudo, puedes gastar 3 VE o 1CR para que el enemigo esté staggered hasta el final de su siguiente turno."
+    },
+    {
+        "nombre": "Signature Vehicle",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Elige un vehículo de silueta 3-. Puedes convertir tantos d8s como rangos en Signature Vehicle en d10s. Solo puedes tener un Signature Vehicle al mismo tiempo."
+    },
+    {
+        "nombre": "Smooth Talker",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Ace", "Bard", "Gunslinger", "Necromancer", "Rogue", "Sorcerer", "Wizard"],
+        "descripcion": "Elige una skill: Charm, Coercion, Deception o Negotiation. Si sacas 1+ CR ganas +1 EX por cada rango en Smooth Talker extras."
+    },
+    {
+        "nombre": "Solid Repairs",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace", "Alchemist", "Gunslinger", "Rogue"],
+        "descripcion": "Tu personaje repara +1 de vida por rango en Solid Repairs a un vehículo o autómata."
+    },
+    {
+        "nombre": "Soothing Tone",
+        "tier": 1,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Druid", "Ranger"],
+        "descripcion": "Una vez por encuentro, haz una tirada de Knowledge DC 3 para que una bestia recupere estrés igual a los éxitos."
+    },
+    {
+        "nombre": "Street Fighter",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Rogue"],
+        "descripcion": "Cuando tu personaje disorients o knock prone al objetivo usando Brawl, puedes usar este talento para hacer daño (saltándose la protección) igual a rango en Skullduggery."
+    },
+    {
+        "nombre": "Surgeon",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Alchemist", "Cleric", "Druid", "Necromancer"],
+        "descripcion": "Cuando tu personaje use Medicine, cura +1 herida extra por rango en Surgeon."
+    },
+    {
+        "nombre": "Swift",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Tu personaje no sufre penalties por moverse en terreno dificultoso."
+    },
+    {
+        "nombre": "Tavern Brawler",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk"],
+        "descripcion": "Tu personaje añade +1VE a Brawl checks y combates con armas improvisadas."
+    },
+    {
+        "nombre": "Templar",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Divine es ahora profesional para tu personaje. Solo puedes castear un hechizo por encuentro de esta manera."
+    },
+    {
+        "nombre": "Toughened",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cada rango en Toughened aumenta +2 el límite de Vida."
+    },
+    {
+        "nombre": "Tumble",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Fighter", "Gunslinger", "Monk", "Ranger", "Rogue", "Sorcerer"],
+        "descripcion": "Una vez por ronda, en tu turno, gastas 2 de estrés y si te mueves no provocas ataques de oportunidad."
+    },
+    {
+        "nombre": "Unremarkable",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Monk", "Rogue"],
+        "descripcion": "Otros personajes o NPCs tienen +1DC para encontrarte (en cualquier situación) o identificarte en multitudes."
+    },
+    {
+        "nombre": "Wheel and Deal",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando vendes bienes u objetos de forma legal, ganas un 10% por cada rango en Wheel and Deal."
+    },
+    {
+        "nombre": "Adventurer",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Athletics y Knowledge (Adventuring) son profesionales. Y ganas un rango en una de las dos (si no tenías rangos)."
+    },
+    {
+        "nombre": "Animal Expertise (Hunter)",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Druid", "Ranger"],
+        "descripcion": "Añades +1VE a todos los checks cuando interactúes con una bestia o animal (incluido combates). Añade +10 al resultado de crítico contra bestias y animales por rango en Animal Expertise."
+    },
+    {
+        "nombre": "Bard",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Knowledge (Lore) y Verse son profesionales, y agregas 1 rango en una de las dos (si no tenías rangos)."
+    },
+    {
+        "nombre": "Barrage",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace", "Gunslinger", "Ranger"],
+        "descripcion": "Añades +1 daño por rango de Barrage a un ataque usando Ranged Heavy o Gunnery en rango 60+ pies."
+    },
+    {
+        "nombre": "Basic Military Training",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Athletics, Ranged (Heavy), y Resilience son profesionales y agregas un rango a una de ellas (solo si esa habilidad no tenía rango)."
+    },
+    {
+        "nombre": "Beast Wrangler",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Druid", "Ranger"],
+        "descripcion": "Añades +1VE por rango en Beast Wrangler a las tiradas para adiestrar o domar criaturas."
+    },
+    {
+        "nombre": "Berserk",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Berserker"],
+        "descripcion": "Una vez por encuentro tu personaje puede usar este talento. Hasta el final del encuentro o que quede incapacitado, tu personaje añade a los combates melee +1EX y 2 puntos de ventaja automáticamente. Los enemigos contra él añaden +1EX. No puedes usar ataques a distancia. Cuando acabe el efecto, sufres -6 de estrés."
+    },
+    {
+        "nombre": "Big Guns",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "El máximo de encumbrance es de 10 + Brawn en vez de 5 + Brawn. Reduces el Cumbersome rating de cualquier arma en -1."
+    },
+    {
+        "nombre": "Blackmail",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Bard", "Necromancer", "Rogue", "Sorcerer", "Warlock"],
+        "descripcion": "Cuando un NPC se queda a 0 de estrés, puedes gastar 1 punto de héroe, para convencerle que haga una tarea de tu elección, siempre que no sea matarse."
+    },
+    {
+        "nombre": "Block",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Parry. Mientras tengas un escudo, puedes usar el talento parry para ataques a distancia también."
+    },
+    {
+        "nombre": "Blood Sacrifice",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Dark Insight. Antes de castear, puedes sufrir 1 herida por rango en Blood Sacrifice para agregar éxitos por herida sufrida."
+    },
+    {
+        "nombre": "Blooded",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Añade +1VE por rango en Blooded para resistir o recuperarse de toxinas y venenos. Reduce los efectos duraderos en -1 ronda por rango de Blooded."
+    },
+    {
+        "nombre": "Brilliant Casting",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Puedes gastar un punto de héroe para agregar +1 punto de ventaja por rangos en Knowledge específico."
+    },
+    {
+        "nombre": "Bulwark",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Parry. Mientras tengas un arma y esta tenga Defensive en sus cualidades, puedes usar el talento parry para reducir el daño de un aliado a 5’ tuyo."
+    },
+    {
+        "nombre": "Burly",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Reduce cualquier Cumbersome y Encumbrance de un arma un número de rango igual a Burly hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Chill of Nordros",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "No puedes comprar este talento si tienes Flames of Kellos. Cuando castees un hechizo de ataque, agrega el efecto hielo sin modificar dificultad ninguna. Nunca puedes tener un hechizo con efecto fuego, o debes usarlo, pero sin el fuego."
+    },
+    {
+        "nombre": "Combat Medicine",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Antes de hacer una tirada de Medicine, tu pj puede añadir +xEX igual al rango en Combat Medicine al resultado. Después de curarlo, sufres +2 estrés por rango en este talento."
+    },
+    {
+        "nombre": "Command",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Alchemist", "Bard", "Fighter", "Necromancer", "Paladin", "Warlock"],
+        "descripcion": "Añade +1VE por rango en Command para Leadership checks. Los afectados por tu tirada de Leadership, tendrán +1VE a sus tiradas de Discipline durante 24 horas."
+    },
+    {
+        "nombre": "Confidence",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Reduce el DC de Discipline para evitar el miedo en 1 por rango en Confidence, hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Containment",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace", "Bard", "Necromancer", "Rogue", "Sorcerer"],
+        "descripcion": "Tu pj y sus aliados a 15’ pueden gastar 1 punto de ventaja para infligir -1 de estrés al objetivo, si este falló su ataque durante esta ronda. Cada pj puede activar este efecto una vez por ronda."
+    },
+    {
+        "nombre": "Coordinated Assault",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": true,
+        "clases": ["Alchemist", "Bard", "Fighter", "Paladin"],
+        "descripcion": "Una vez por turno, tú y x aliados a distancia 15’, igual al número de rangos en Leadership, tienen automáticamente +1VE a todos los checks de combates. Por cada rango en Coordinated Assault, aumenta el rango de distancia en +15’."
+    },
+    {
+        "nombre": "Cutting Question",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por encuentro, en vez de Coercion puedes usar Deception."
+    },
+    {
+        "nombre": "Debilitating Shot",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Gunslinger", "Ranger"],
+        "descripcion": "Cuando ataques con un arma de tu vehículo, puedes gastar 2 puntos de ventaja para reducir la velocidad en -1 hasta el final de la siguiente ronda."
+    },
+    {
+        "nombre": "Deceptive Taunt",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Paladin", "Ranger"],
+        "descripcion": "Una vez por sesión, puedes hacer una tirada enfrentada de Deception, en caso de éxito el adversario debe atacar durante su turno (adversario) a tu pj."
+    },
+    {
+        "nombre": "Defensive Stance",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Una vez por ronda, tu pj sufre estrés igual a rangos en Defensive Stance. Hasta el final de tu siguiente turno, convierte xd10 en xd8 igual al estrés gastado en la tirada de melee de los enemigos contra ti. Si la tirada solo tiene d8s, resta -1 al resultado más grande del enemigo, tantos como estrés gastado."
+    },
+    {
+        "nombre": "Determined Driver",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes gastar 1 punto de héroe para curar vida al vehículo que estás conduciendo."
+    },
+    {
+        "nombre": "Dirty Tricks",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Cuando hagas un CR a un enemigo, puedes agregarle +1DC a su siguiente tirada."
+    },
+    {
+        "nombre": "Disorient",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Después de golpear a un enemigo (aunque no le hagas daño) puedes gastar 2 puntos de ventaja para desorientar al objetivo x rondas igual a rangos en Disorient."
+    },
+    {
+        "nombre": "Distracting Behavior",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": true,
+        "clases": ["Bard", "Ranger", "Rogue"],
+        "descripcion": "Sufre estrés no más que rangos en Cunning. Hasta el principio de tu siguiente turno, todos los NPCs a 5’ sufren -1d8. Más rangos en Distracting Behavior aumenta en +15’ el alcance."
+    },
+    {
+        "nombre": "Dominion of the Dimora",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Tu pj no puede coger este talento si tiene Favor of the Fae. Agrega a tus hechizos de ataque la cualidad impact de forma gratuita, pero en cambio no puedes usar la cualidad Manipulate en ningún hechizo. (Puedes seguir casteando ese hechizo pero ignoras el efecto de Manipulate)."
+    },
+    {
+        "nombre": "Dual Wielder",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por ronda, puedes bajar el DC -1 de la tirada de ataque combinado de doble empuñadura."
+    },
+    {
+        "nombre": "Dynamic Fire",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Gunslinger", "Fighter", "Ranger", "Rogue"],
+        "descripcion": "Cuando ataques a distancia mientras estás con un enemigo C/C, sufres 2 de estrés, reduces en -2d20-20’ la distancia del arma en ese ataque solo."
+    },
+    {
+        "nombre": "Encouraging Song",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard"],
+        "descripcion": "Mientras tengas un instrumento musical, puedes hacer una tirada DC 3 Charm o Verse. Por cada éxito, aliados igual al número de éxitos ganan +1VE a su siguiente tirada. Por cada punto de ventaja, esos aliados se curan x puntos de estrés igual a los puntos de ventaja."
+    },
+    {
+        "nombre": "Ensorcelled (Improved)",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Ensorcelled. Si tu pj tiene 2 rangos en cualquier magic skill, una vez por encuentro, puedes usar este talento para agregar +1VE y +1D8 en una tirada social. Usando tu magia para tu beneficio, otros detectan algo raro pero no lo detectan como algo sobrenatural."
+    },
+    {
+        "nombre": "Exploit",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando usas un ataque Ranged o Melee (Light), puedes sufrir 2 de estrés para usar este talento. Le agregas la cualidad Ensare con un rating igual a rangos en Exploit."
+    },
+    {
+        "nombre": "Fancy Paint Job",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. 1D8 pasa a ser 1D10 en tiradas Charm, Deception y Negotiation si estás en presencia de tu vehículo."
+    },
+    {
+        "nombre": "Favor of the Fae",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "No puedes tener este talento si tienes Dominion of the Dimora. Cuando castees un hechizo de ataque, agregas de forma gratuita Manipulative, pero en cambio nunca puedes agregar o usar la cualidad Impact de un hechizo que tengas."
+    },
+    {
+        "nombre": "Fearsome",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Berserker", "Druid", "Fighter", "Necromancer", "Rogue", "Warlock", "Wizard"],
+        "descripcion": "Cuando un adversario se pone en C/C con tu pj, puedes forzarlo a hacer una tirada de miedo, DC rangos en Fearsome +1."
+    },
+    {
+        "nombre": "Fine Tuning",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando reduces el estrés que tu vehículo sufre, reduce 1 adicional por rango en Fine Tuning."
+    },
+    {
+        "nombre": "Flames of Kellos",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "No puedes comprar este talento si tienes Chill of Nordros. Agregas en tus hechizos de ataque la cualidad Fuego de forma gratuita. A cambio, no puedes usar la cualidad hielo en tus hechizos. Si el hechizo lo tuviese de antes, ignora el efecto de hielo."
+    },
+    {
+        "nombre": "Flash of Insight",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando tu pj genera 1+CR, agrega a la tirada +2VE extras y se añaden al resultado."
+    },
+    {
+        "nombre": "Go Without",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Alchemist", "Rogue", "Sorcerer"],
+        "descripcion": "Una vez por sesión, es como si tuvieses las herramientas específicas para el trabajo, en tu siguiente tirada."
+    },
+    {
+        "nombre": "Grapple",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Tu pj puede sufrir 2 de estrés para usar este talento. Hasta el inicio de tu siguiente turno, los enemigos deben gastar 2 maniobras para salirse de tu Grapple."
+    },
+    {
+        "nombre": "Hard-Headed",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando estés staggered o disoriented, haz una tirada Discipline DC 5, para quitarte el malus. Reduce -1DC por cada rango en Hard-Headed."
+    },
+    {
+        "nombre": "Haughty Demeanor",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Necromancer", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Otros pjs y NPCs tienen -1VE cuando te hagan objetivo en tiradas sociales."
+    },
+    {
+        "nombre": "Headbutt",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Ranger"],
+        "descripcion": "Una vez por encuentro, tu pj puede sufrir -2 heridas y seleccionar un objetivo no vehículo con una silueta igual a tu pj+1. El objetivo se queda prone y disoriented hasta el final de la siguiente ronda."
+    },
+    {
+        "nombre": "Heightened Awareness",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Gunslinger", "Ranger"],
+        "descripcion": "Aliados a 30’ añaden +1VE a las tiradas de Perception y Vigilance. Los aliados a 5’ agregan +2VE."
+    },
+    {
+        "nombre": "Heroic Recovery",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Elige una característica, una vez por encuentro gastas 1 punto de héroe y recuperas estrés igual a esa característica."
+    },
+    {
+        "nombre": "Hold Together",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Ace"],
+        "descripcion": "Gasta 1 punto de héroe para convertir el daño que reciba en ese momento tu vehículo en estrés."
+    },
+    {
+        "nombre": "Hunter",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Knowledge (Geography), Ranged, and Survival son profesionales y ganas 1 rango en una de ellas, mientras no tenga rangos."
+    },
+    {
+        "nombre": "Hunter's Quarry",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ranger"],
+        "descripcion": "Haz una tirada Survival DC 6, para convertir todos los d8 en d10s si el enemigo está a mínimo 100’ o más hasta el final de tu siguiente turno."
+    },
+    {
+        "nombre": "Impaling Strike",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Berserker", "Fighter", "Rogue"],
+        "descripcion": "Si tu pj hace 1CR con un arma melee, puede inmovilizar al enemigo hasta el final del siguiente turno del enemigo."
+    },
+    {
+        "nombre": "Inspiring Rhetoric",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Cleric", "Paladin"],
+        "descripcion": "Tu pj hace una tirada de Leadership DC 3, por cada EX cura a un aliado a 15’ 1 de estrés. Por cada punto de ventaja puedes elegir a otro aliado extra a la misma distancia."
+    },
+    {
+        "nombre": "Inventor",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Tu pj puede construir nuevos objetos o modificar los existentes agregando +xVE a la tirada igual a rangos en Inventor. Incluso si no tiene los planos para ello. (Al no tener planos la dificultad es alta, pero no es imposible)."
+    },
+    {
+        "nombre": "Knockdown",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Después de golpear con un ataque melee, puedes gastar 1CR en tirar al objetivo al suelo."
+    },
+    {
+        "nombre": "Know the Enemy",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes usar Knowledge específico para tirar iniciativa."
+    },
+    {
+        "nombre": "Known Schematic",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist"],
+        "descripcion": "Una vez por sesión, haz una tirada de Knowledge específico DC 5, para saber perfectamente el edificio o vehículo como si fuese tuyo."
+    },
+    {
+        "nombre": "Knows the Ropes",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Necromancer", "Rogue"],
+        "descripcion": "Agregas +xVE para escaparte de restricciones igual a rangos en Skullduggery. Gasta +1CR para liberar a todos los aliados a 15’."
+    },
+    {
+        "nombre": "Lucky Strike",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Bard", "Fighter", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Elige una característica cuando compras este talento. Cuando hagas daño en una tirada de combate, gasta 1 punto de héroe y añades la característica al ataque (debe ser solo un golpe)."
+    },
+    {
+        "nombre": "Multiple Opponents",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Tu pj agrega +1VE a Brawl y Melee cuando está C/C con 2+ oponentes. Los grupos de minions cuentan como múltiples."
+    },
+    {
+        "nombre": "Mystic Theurge",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando compras este talento, elige una habilidad mágica. Esa habilidad mágica se convierte profesional pero puedes usarla una vez por encuentro."
+    },
+    {
+        "nombre": "Natural Communion",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Agregas invocar Ally de forma gratuita cuando usas Conjure magia. Deben ser animales naturales del área."
+    },
+    {
+        "nombre": "Overstocked Ammo",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. Tu vehículo tiene +1 por rango en Overstocked Ammo a las armas con Limited Ammo del vehículo."
+    },
+    {
+        "nombre": "Parkour!",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Bard", "Fighter", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Una vez por ronda, puedes sufrir 1 de estrés, y moverte a donde sea, con tu velocidad actual. Debe haber paredes o sitios para apoyarse, pero puedes usar movimientos verticales y demás."
+    },
+    {
+        "nombre": "Physical Training",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Agrega +1VE por rango en Physical Training a Athletics y Resilience."
+    },
+    {
+        "nombre": "Quick Draw (Improved)",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Fighter", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Quick Draw, puedes usarlo 2 veces por ronda. También reduce el prepare rating en 2, hasta un mínimo de 0."
+    },
+    {
+        "nombre": "Quick Fix",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes gastar 1 punto de héroe y reparar temporalmente un objeto dañado a 5’ por x rondas, donde x es igual a tus rangos en Mechanic. Después de esas rondas se daña un paso más, incluso si eso lo destruye."
+    },
+    {
+        "nombre": "Reckless Charge",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk"],
+        "descripcion": "Después de usar una maniobra de movimiento y acabar C/C, puedes gastar 2 de estrés y agregar 2EX y 2 puntos de ventajas a la siguiente tirada de Brawl, Melee (Light), o Melee (Heavy)."
+    },
+    {
+        "nombre": "Researcher",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Alchemist", "Wizard"],
+        "descripcion": "En una tirada con éxito de Knowledge, el pj y sus aliados ganan +1 punto de ventaja para actuar en la investigación en el siguiente turno."
+    },
+    {
+        "nombre": "Resist Disarm",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Fighter", "Monk", "Paladin"],
+        "descripcion": "Gasta 2 de estrés para evitar que te desarmen esta acción, dañen el arma o lo destruyan."
+    },
+    {
+        "nombre": "Scathing Tirade",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Berserker", "Bard", "Gunslinger", "Necromancer", "Rogue", "Warlock", "Wizard"],
+        "descripcion": "Haz una tirada de Coercion DC 3, por cada EX y punto de ventaja un enemigo sufre 1 de estrés."
+    },
+    {
+        "nombre": "Selective Detonation",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Alchemist", "Cleric", "Druid", "Sorcerer", "Wizard"],
+        "descripcion": "Gasta 1 punto de ventaja para excluir del Blast a x objetivos, donde x es el nivel de Selective Detonation."
+    },
+    {
+        "nombre": "Sense Emotions",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Druid", "Gunslinger", "Necromancer", "Rogue", "Warlock"],
+        "descripcion": "Agregas +1VE a Charm, Coercion, y Deception."
+    },
+    {
+        "nombre": "Shapeshifter (Improved)",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Druid"],
+        "descripcion": "Debes tener Shapeshifter, aumenta la silueta de 0 o 1 a 0 o 2."
+    },
+    {
+        "nombre": "Shortcut",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Durante una persecución, agrega +xVE donde x es el rango de Shortcut, a cualquier tirada de perseguir o escapar contra un oponente."
+    },
+    {
+        "nombre": "Side-Step",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Una vez por ronda, puedes sufrir estrés igual a rangos en Side-Step, para que todos los ataques a distancia contra ti los d10s se conviertan en d8s hasta el final del turno de tu pj."
+    },
+    {
+        "nombre": "Signature Spell",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Elige un hechizo o créalo tú mismo, la dificultad de ese hechizo es de -1 hasta un mínimo de 0."
+    },
+    {
+        "nombre": "Special Use Permit",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Gunslinger", "Ranged", "Rogue"],
+        "descripcion": "Tu pj puede llevar un arma Ranged (Heavy) Restringida, como si no fuese restringida sin ser detenido o lo paren. Pero sigue sin poder usarlo de forma ilegal."
+    },
+    {
+        "nombre": "Stalker",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Druid", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Agrega +xVE donde x es el rango en Stalker a todas las tiradas de Coordination y Stealth."
+    },
+    {
+        "nombre": "Strong Arm",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Las armas arrojadizas llegan +20’ de distancia."
+    },
+    {
+        "nombre": "Stunning Blow",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando ataques con armas Melee, puedes infligir daño de estrés en vez de heridas."
+    },
+    {
+        "nombre": "Templar (Improved)",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Templar, ahora puedes usar hechizos Divine igual a tus rangos en Willpower."
+    },
+    {
+        "nombre": "Threaten",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["Berserker", "Cleric", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Si un adversario hiere en 15’ a un aliado, puedes gastar 3 de estrés para infligir x de estrés igual a tus rangos en Coercion. El rango de Threaten aumenta +15’ por cada rangos en este talento, después del primer rango."
+    },
+    {
+        "nombre": "Time to Go",
+        "tier": 2,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes gastar 1 punto de héroe para hacer una maniobra de movimiento como incidental out of turn. Esto podría evitar daños de áreas o cuando se te acercan."
+    },
+    {
+        "nombre": "Touch of Fate",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión puedes rerolear 1 dado."
+    },
+    {
+        "nombre": "Two-Handed Stance",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Gunslinger", "Ranged", "Rogue"],
+        "descripcion": "Cuando atacas con un arma Ranged light agregas 1 punto de ventaja a la tirada."
+    },
+    {
+        "nombre": "Unarmed Parry",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Fighter", "Monk"],
+        "descripcion": "Puedes usar el talento parry sin armas, reduces el estrés que necesitas en -1 hasta un mínimo de 1. Para Reflect sigues necesitando un escudo."
+    },
+    {
+        "nombre": "Uncanny Senses",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Agregas +xVE donde x son los rangos de Uncanny Senses a todas las tiradas de Perception y Vigilance."
+    },
+    {
+        "nombre": "Well-Travelled",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Knowledge (Geography), Negotiation, y Vigilance son profesionales, añades un rango en una de ellas, siempre que no tenga ningún rango."
+    },
+    {
+        "nombre": "Wraithbane",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Paladin"],
+        "descripcion": "Para hacer crítico a no-muertos, necesitas 1 punto de ventaja menos, hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Alchemical Arts",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Alchemist", "Druid", "Necromancer", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Después de craftear un veneno, puedes sufrir estrés igual al doble de rangos en Alchemical Arts. Por cada 2 estrés gastado, agrega al resultado +1EX +1 punto de ventaja."
+    },
+    {
+        "nombre": "Ambush",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ranger", "Rogue"],
+        "descripcion": "Una vez por ronda, mientras tengas el beneficio de cobertura, añades daño igual a tu Stealth a un único golpe hasta un rango máximo de 25’."
+    },
+    {
+        "nombre": "Armor Master (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Debes tener Armor Master. Aumenta en +1 extra (se acumula con Armor Master) tu protección. Además, aumenta las defensas +1."
+    },
+    {
+        "nombre": "Backstab",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard", "Fighter", "Rogue"],
+        "descripcion": "Puedes usar este talento para atacar a un enemigo distraído con un arma Melee light, puedes usar Skulduggery en vez de Melee Light (a tu elección). Solo un ataque por ronda así, cada éxito agrega +2 daños en vez de +1."
+    },
+    {
+        "nombre": "Bad Habit",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes estar disorientado para el resto del encuentro. Mientras estés disorientado te curas 2 de estrés al principio de tu turno."
+    },
+    {
+        "nombre": "Barrel Roll",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Puedes usar este talento cuando seas el piloto de un vehículo. Cuando te golpeen con un ataque a distancia, puedes gastar 3 de estrés del vehículo, para reducir el daño 2 + rangos en la habilidad de conducción."
+    },
+    {
+        "nombre": "Battle Casting",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Tu personaje no tiene -1VE por llevar armaduras con +2 protección o superior, usar escudos o no tener al menos una mano libre cuando lance un hechizo."
+    },
+    {
+        "nombre": "Blind Spot",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Tu personaje y aliados a 20’ agregan +1 punto de ventaja a las tiradas de combate mientras tengan cobertura. No se acumula con otros Blind Spot."
+    },
+    {
+        "nombre": "Blooded (Improved)",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Como una acción, puedes hacer una tirada de Resilience DC 6, para curarte de todos los venenos y efectos de drogas. Reduce el DC -1 por rangos en Blooded (no el mejorado)."
+    },
+    {
+        "nombre": "Bodyguard",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": true,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Una vez por ronda puedes sufrir estrés hasta rangos en Bodyguard. Elige a un aliado a 5’, hasta el final de tu siguiente turno, todos los chequeos de combate contra el aliado tienen DC +1 por estrés gastado."
+    },
+    {
+        "nombre": "Capital Sendoff",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Ace"],
+        "descripcion": "Esta acción hace que si tienes a dos vehículos enemigos a rango corto (esto puede variar por la naturaleza del combate) haz una tirada de Cool DC 5, para que sufran ambos una colisión menor."
+    },
+    {
+        "nombre": "Cavalier",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Paladin"],
+        "descripcion": "Mientras estés en una montura, una vez por ronda puedes usar este talento para que la montura haga una acción en tu turno."
+    },
+    {
+        "nombre": "Center of Being",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": true,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Siempre que tengas un arma con la cualidad Defensive, puedes usar esta maniobra. Hasta el principio de tu siguiente turno. Los ataques cuerpo a cuerpo contra tus aliados a 5’, ese ataque CR rating es +1 por rangos en Center of Being."
+    },
+    {
+        "nombre": "Combat Veteran",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Agrega +1VE en todas las tiradas de Brawl y Discipline."
+    },
+    {
+        "nombre": "Confidence (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Confidence. Puedes gastar 1 punto de ventaja si superaste la tirada, para que los aliados a 15’ agreguen +xEX, donde x son los rangos en Confidence (no el mejorado)."
+    },
+    {
+        "nombre": "Congenial",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Bard", "Necromancer", "Paladin", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Puedes gastar 1 de estrés por rango en Congenial, para reducir en -1DC de tirada Charm o Negotiation, o subir d8 a d10 en Charm o Negotiation, igual al número de estrés gastados."
+    },
+    {
+        "nombre": "Constant Vigilance",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes usar siempre Vigilance, para las iniciativas."
+    },
+    {
+        "nombre": "Counterattack",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Improved Parry. Cuando golpeas con Improved Parry, puedes también activar de forma gratuita una cualidad del arma."
+    },
+    {
+        "nombre": "Creative Killer",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Rogue"],
+        "descripcion": "Reduce el CR rating de las armas improvisadas en -2, hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Cunning Persona",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes sufrir 2 de estrés para usar Charm con Cunning en vez de Presence."
+    },
+    {
+        "nombre": "Cunning Snare",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Alchemist", "Ranger"],
+        "descripcion": "Una vez por encuentro, como acción puedes crear una trampa. Cuando otra persona está a 5’ de la trampa, debe hacer una tirada de Vigilance contra tu Survival +1d3, para evitar el daño."
+    },
+    {
+        "nombre": "Customized Cooling Unit",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. Aumenta el estrés máximo de tu vehículo en +2 por cada rango en este talento."
+    },
+    {
+        "nombre": "Daring Turn",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Si un oponente tiene +1VE en su vehículo, puedes gastar 2 de estrés de tu vehículo para negárselo."
+    },
+    {
+        "nombre": "Disarm",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Puedes gastar 1CR o 2 puntos de ventaja con una tirada exitosa de Brawl o Melee Light para desarmar al oponente."
+    },
+    {
+        "nombre": "Disarming Smile",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["Ace", "Bard", "Rogue"],
+        "descripcion": "Haz una tirada de Charm vs Charm del oponente a rango 20’ para bajarle las defensas igual a rangos en Disarming Smile hasta el final del encuentro."
+    },
+    {
+        "nombre": "Daring Turn",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Si un oponente tiene +1VE en su vehículo, puedes gastar 2 de estrés de tu vehículo para negárselo."
+    },
+    {
+        "nombre": "Disarm",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Puedes gastar 1CR o 2 puntos de ventaja con una tirada exitosa de Brawl o Melee Light para desarmar al oponente."
+    },
+    {
+        "nombre": "Disarming Smile",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["Ace", "Bard", "Rogue"],
+        "descripcion": "Haz una tirada de Charm vs Charm del oponente a rango 20’ para bajarle las defensas igual a rangos en Disarming Smile hasta el final del encuentro."
+    },
+    {
+        "nombre": "Dissonance",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard"],
+        "descripcion": "Mientras tengas un instrumento musical, haz una tirada Charm o Verse DC 4. Por cada punto de ventaja elige un enemigo adicional a 20’ tuyo. Por cada EX sufre 1 herida que traspasa protección."
+    },
+    {
+        "nombre": "Dodge",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando seas objetivo de un ataque (melee o ranged), puedes gastar estrés hasta rangos en Dodge. Reduce d10s a d8s tantos como estrés gastado. Si solo tiene d8s y podrías reducir más, tiene -1 a la tirada más alta."
+    },
+    {
+        "nombre": "Double or Nothing",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Sufres 2 de estrés para incrementar la dificultad en +1DC de la siguiente tirada. En caso de éxito, ganas el doble de puntos de ventajas."
+    },
+    {
+        "nombre": "Dual Strike",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Ranger", "Rogue"],
+        "descripcion": "Cuando ataques con dos armas melee, puedes gastar 2 de estrés para golpear automáticamente con la segunda arma (en caso de éxito previo en el ataque) en vez de 2 puntos de ventaja."
+    },
+    {
+        "nombre": "Dumb Luck",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, puedes gastar un punto de héroe y evitas la tirada de la tabla del crítico."
+    },
+    {
+        "nombre": "Eagle Eyes",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Gunslinger", "Ranger"],
+        "descripcion": "Una vez por encuentro, antes de hacer un ataque ranged, puedes incrementar en +30’ la distancia del arma, durante todo tu turno."
+    },
+    {
+        "nombre": "Easy Prey",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Druid", "Fighter", "Ranger", "Rogue"],
+        "descripcion": "Puedes sufrir 3 de estrés y tú y tus aliados a 20’ obtenéis +2VE contra enemigos inmovilizados."
+    },
+    {
+        "nombre": "Elementalist (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Druid", "Sorcerer", "Wizard"],
+        "descripcion": "Debes tener Elementalist. Ganas una habilidad extra basado en el elemento que elegiste en Elementalist. Fire: resistencia (rango habilidad mágica) a daño de fuego de todas las fuentes. Water: no puedes ser inmovilizado y respiras bajo agua. Earth: No puedes estar knock prone o staggered. Air: No puedes estar disorientado y puedes volar igual a tu velocidad (cuando acabas el movimiento debes tocar sólido con los pies)."
+    },
+    {
+        "nombre": "Encouraging Words",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Paladin", "Ranger"],
+        "descripcion": "Si un aliado a 5’ falla una tirada, gasta 1/3 de estrés y agregas 1Ex / 1d3Ex."
+    },
+    {
+        "nombre": "Ensorcelled (Supreme)",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Ensorcelled y 3 rangos en cualquier magic skill. Una vez por sesión puedes forzar a todos los enemigos en 20’ hacer Discipline DC 5. Los que fallen deben usar todas las maniobras posibles para alejarse de ti. Sufren además 5 de estrés."
+    },
+    {
+        "nombre": "Explosive Casting",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Druid", "Sorcerer", "Wizard"],
+        "descripcion": "Cuando lances un hechizo de ataque, puedes tratar la cualidad Blast igual al x2 en Knowledge. Además, puedes gastar 1 punto de héroe para activar el daño de Blast aunque falles la tirada. Este daño ignora protección."
+    },
+    {
+        "nombre": "Extended Reach",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Paladin"],
+        "descripcion": "Sufre 1 de estrés y tu arma Melee Heavy o de dos manos, puede hacer objetivo hasta 15’ de distancia."
+    },
+    {
+        "nombre": "Fear the Shadows",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Necromancer", "Rogue", "Warlock"],
+        "descripcion": "Una vez por sesión, haz una tirada Deception DC 6, para obligar a un grupo de minions o un rival a abandonar el encuentro."
+    },
+    {
+        "nombre": "Fearsome Rep",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Berserker", "Druid", "Necromancer", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Agrega +1VE a todas las tiradas de Coercion igual a rangos en Fearsome Rep."
+    },
+    {
+        "nombre": "Feint",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace", "Fighter", "Ranger", "Rogue"],
+        "descripcion": "Si fallas un ataque melee, puedes gastar 1CR o 3Ex para agregar +xDC a la tirada de ataque de ese enemigo contra ti. Donde x son los rangos en Feint."
+    },
+    {
+        "nombre": "Feral Strength",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Druid"],
+        "descripcion": "Añade +1 daño por rango en Feral Strength a un ataque exitoso usando Brawl o Melee."
+    },
+    {
+        "nombre": "Field Commander",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Fighter", "Paladin"],
+        "descripcion": "Tu personaje puede hacer una tirada DC 4 Leadership. Si es exitosa, x aliados, donde x es tu Presence, pueden sufrir 1 de estrés para hacer una maniobra (out of turn)."
+    },
+    {
+        "nombre": "Fire Control",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Si usas esta maniobra, la silueta de tu objetivo es +1 de grande hasta el principio de tu siguiente turno. Esto solo con vehículos."
+    },
+    {
+        "nombre": "Forgot to Count?",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Cuando un oponente hace una tirada con un arma a distancia, puedes hacer que si no saca éxito, cuente como PF, para dejarlo sin munición."
+    },
+    {
+        "nombre": "Form on Me",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Aliados igual a rangos en Leadership a 20’ ganan el beneficio de la acción Gain the Advantage."
+    },
+    {
+        "nombre": "Fortified Structure",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. Tu vehículo tiene +1 de vida máximo por rangos en Fortified Structure."
+    },
+    {
+        "nombre": "Frenzied Attack",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Berserker", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Cuando hagas un ataque Melee Heavy o Brawl, sufre estrés hasta rangos en Frenzied Attack. Convierte xd8s en xd10s, igual al estrés gastado."
+    },
+    {
+        "nombre": "Full Throttle",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Puedes hacer una tirada de Driving o Riding DC 6. Si tienes éxito, la velocidad máxima de tu vehículo o montura aumenta en +1, por un número de rondas igual al Cunning de tu personaje."
+    },
+    {
+        "nombre": "Harass",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Druid", "Ranger"],
+        "descripcion": "Tu animal de compañía si ataca y tiene éxito, puedes decidir no hacer daño y en cambio agregar +1d3 DC al siguiente ataque del objetivo."
+    },
+    {
+        "nombre": "Hard-Boiled",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando vayas a recuperar estrés después de un encuentro, puedes hacer una tirada de Resiliencia en vez de Discipline o Cool."
+    },
+    {
+        "nombre": "Heroic Resilience",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Si has sido alcanzado por un ataque, gasta 1 punto de héroe para aumentar la protección +1 por rangos en Resilience."
+    },
+    {
+        "nombre": "Heroic Will",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando compres este talento, elige dos características. Puedes, por 1 punto de héroe, ignorar los efectos de todos los Critical Injuries de los checks que tengan que ver con esas características durante todo el encuentro."
+    },
+    {
+        "nombre": "Hunter's Quarry (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ranger"],
+        "descripcion": "Debes tener Hunter’s Quarry. Sufre 2 de estrés para que en vez de una acción sea una maniobra."
+    },
+    {
+        "nombre": "Informant",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, puedes revelar un contacto que tenga algo de información sobre un tema."
+    },
+    {
+        "nombre": "Innate Focus",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Sorcerer"],
+        "descripcion": "Si no tienes implements mágicos, tu ataque base de los hechizos de daño aumenta +2. Además, puedes reducir el DC -1 del casteo gastando +1 de estrés."
+    },
+    {
+        "nombre": "Intense Focus",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Sufre 1 de estrés y convierte 1d8 en 1d10 de tu siguiente habilidad, solo una vez por habilidad por encuentro."
+    },
+    {
+        "nombre": "Iron Body",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Cleric", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Agrega +1VE por rango en Iron Body a las tiradas de Coordination y Resilience. Reduce el critical rating -1 por rango en Iron Body, hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Jury Rigged",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Tu personaje elige cuando compras cada rango entre uno de estos beneficios: +1 daño del arma, -1 Critical rating (mínimo 1), -1 punto de ventaja para activar una cualidad (elegir ahora). Además, reduce el encumbrance -2 hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Justice of the Citadel",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Cleric", "Druid", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Una vez por ronda, gasta 3 de estrés y añade al daño igual a rangos en Discipline en un único ataque."
+    },
+    {
+        "nombre": "Lethal Blows",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Agrega +10 a la tirada de tabla de crítico por rango en Lethal Blows."
+    },
+    {
+        "nombre": "Martial Grace",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Monk"],
+        "descripcion": "Una vez por ronda, en un único ataque, puedes sufrir 3 de estrés para agregar Coordination al daño de un ataque Brawl."
+    },
+    {
+        "nombre": "Martial Weapons Master",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Elige un tipo de arma específico, agregas la habilidad para lanzar ese arma para agregar daño igual a los rangos o para agregar puntos de ventajas igual a los rangos. Pero no puedes combinar ventajas y daño."
+    },
+    {
+        "nombre": "Natural",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Elige dos skills. Una vez por sesión puedes rerolear una de esas dos tiradas."
+    },
+    {
+        "nombre": "Nimble",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Al principio de tu turno, puedes gastar 1 punto de héroe para usar una maniobra de movimiento como incidental (no cuenta para el límite de dos maniobras). Además, si gastas 2 de estrés ese movimiento no provoca ataque de oportunidad."
+    },
+    {
+        "nombre": "No Escape",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Berserker", "Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Gasta 2 puntos de ventaja de una tirada de Coercion, el objetivo no puede hacer una segunda maniobra por ningún medio posible esta ronda."
+    },
+    {
+        "nombre": "Nobody's Fool",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Aumenta el DC de tiradas enemigas de Charm, Coercion o Deception, igual a rangos en Nobody’s Fool."
+    },
+    {
+        "nombre": "Opportunist",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Elige una skill no de combate ni mágica. Cuando hagas una tirada de esa skill, puedes convertir 1 punto de ventaja en 1 EX por rangos en Opportunist."
+    },
+    {
+        "nombre": "Outside the Box",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Elige una característica cuando compres este talento. Una vez por sesión puedes usar una skill con esa característica."
+    },
+    {
+        "nombre": "Overwhelm Defenses",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Por cada 2 puntos de ventaja, reduce la defensa de esa zona en 1, en un combate de vehículos."
+    },
+    {
+        "nombre": "Painkiller Specialization",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando usas una poción para curar, cura +1 heridas por rangos en Painkiller Specialization. A partir de la sexta poción no tiene efecto en todo el día. Solo funciona contigo mismo."
+    },
+    {
+        "nombre": "Parry (Improved)",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Parry. Después de que el ataque haya sido resuelto, puedes usar 1PF o 3 dados fallidos del atacante, para golpear automáticamente al enemigo con Brawl o Melee (todas) y hacerle daño. Si el ataque fuera a incapacitarte, no puedes usar este talento."
+    },
+    {
+        "nombre": "Pin",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Haz una tirada opuesta de Athletics para inmovilizar al enemigo C/C hasta el final de tu siguiente turno. Puedes gastar 1CR para extenderlo otra ronda extra."
+    },
+    {
+        "nombre": "Plausible Deniability",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Haz una tirada DC 6 Coercion para convencer a NPCs (no nemesis) igual a tu Willpower para huir sin hacer ruido."
+    },
+    {
+        "nombre": "Point Blank",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace", "Alchemist", "Gunslinger", "Rager", "Rogue"],
+        "descripcion": "Agrega +1 daño por rango en Point Blank de un único ataque, mientras uses Ranged (todas) a 15’ o C/C."
+    },
+    {
+        "nombre": "Potent Concoctions",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Alchemist", "Wizard"],
+        "descripcion": "Cuando hagas una tirada de Alchemy, si sacas 1CR, agrega otro d10 y agrégalo al resultado. Solo puede usarse una vez por tirada de creación."
+    },
+    {
+        "nombre": "Powerful Blast",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Alchemist", "Cleric", "Druid", "Gunslinger", "Necromancer", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "El daño Blast aumenta +1 por rango en Powerful Blast."
+    },
+    {
+        "nombre": "Precise Archery",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Fighter", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Cuando ataques a un enemigo que esté C/C con un aliado, tiene -1DC para golpearle. La PF no activa golpear al aliado."
+    },
+    {
+        "nombre": "Pressure Point",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Monk", "Fighter", "Rogue"],
+        "descripcion": "Cuando ataques con Brawl a un objetivo vivo, puedes elegir hacerle daño al estrés en vez de la vida y agregas +1 daño por rangos en Medicine."
+    },
+    {
+        "nombre": "Rapid Archery",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Fighter", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Cuando ataques con un arco o similar (a discreción del GM), puedes sufrir 2 de estrés y tu siguiente ataque a distancia gana la cualidad Linked, igual a rangos en Ranged (todos)."
+    },
+    {
+        "nombre": "Reflect (Improved)",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Berserker", "Cleric", "Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Reflect. Puedes reflejar con un arma melee (no es necesario escudo si no quieres). Cuando reflejes, puedes gastar 1PF del enemigo o 3 dados no exitosos, para devolver ese daño a un enemigo a un rango de 30’."
+    },
+    {
+        "nombre": "Resourceful Refit",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Gunslinger"],
+        "descripcion": "Puedes hacer una tirada de Mechanics DC 4 para recoger piezas y materiales de un antiguo objeto, para construir uno nuevo."
+    },
+    {
+        "nombre": "Scathing Tirade (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Bard", "Gunslinger", "Necromancer", "Rogue", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Scathing Tirade. Los enemigos afectados por Scathing Tirade, agregan 1DV a todas las habilidades un número de rondas igual a Coercion."
+    },
+    {
+        "nombre": "Scything Strike",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Berserker", "Fighter", "Monk"],
+        "descripcion": "Tus ataques desarmado de Brawl ganan Pierce igual a rangos en Scything Strike."
+    },
+    {
+        "nombre": "Seize the Initiative",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, haz una tirada de iniciativa (Vigilance o Cool, a no ser que un talento te diga lo contrario) DC 6. Si sale éxito, otro PJ puede tomar el turno inmediatamente."
+    },
+    {
+        "nombre": "Sense Advantage",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Sorcerer", "Wizard"],
+        "descripcion": "Una vez por sesión, puedes agregarle +2DV a la habilidad de un NPC."
+    },
+    {
+        "nombre": "Share Pain",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Druid", "Ranger"],
+        "descripcion": "Reduce a la mitad el daño entre tu animal de compañía y tú."
+    },
+    {
+        "nombre": "Shockwave",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Paladin"],
+        "descripcion": "Tus ataques Melee (Heavy) tienen la cualidad Blast igual a rangos en Melee Heavy. Tu PJ no recibe ese daño, pero los aliados sí. (Este daño traspasa protección)."
+    },
+    {
+        "nombre": "Shortcut (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener el talento Shortcut. Puedes sufrir 2 de estrés para agregar EX igual a rangos en Shortcut."
+    },
+    {
+        "nombre": "Skilled Teacher",
+        "tier": 3,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Si un aliado a 20’ tira una habilidad y tu PJ tiene más rangos que él en esa habilidad, puedes gastar estrés no más que rangos en Skilled Teacher, para darle EX igual al estrés gastado."
+    },
+    {
+        "nombre": "Sorry About the Mess",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Druid", "Fighter", "Gunslinger", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "El ratio de crítico de tu arma se reduce en 1, hasta un mínimo de 1, contra objetivos que no hayan actuado en este encuentro."
+    },
+    {
+        "nombre": "Studious Plotting",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Druid", "Gunslinger", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Cuando uses Streetwise o Survival para moverte por naturaleza o ciudad, tu PJ puede usar Intellect en vez de Cunning."
+    },
+    {
+        "nombre": "Stunning Blow (Improved)",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Stunning Blow. Aparte de lo que hace Stunning Blow, puedes gastar 1CR para agregarle stagger al objetivo por cada CR."
+    },
+    {
+        "nombre": "Sunder Expertise",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Por cada punto de ventaja que uses para activar Sunder, el objeto se estropea 2 pasos en vez de uno."
+    },
+    {
+        "nombre": "Takedown",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Berserker", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Rogue"],
+        "descripcion": "Tu PJ hace una tirada opuesta Brawl vs Resilience C/C, si es éxito, el objetivo está prone e inmovilizado."
+    },
+    {
+        "nombre": "Time to Go (Improved)",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Time to Go. Permite hacer lo mismo a un aliado a 5’, aparte de a ti mismo."
+    },
+    {
+        "nombre": "Toughened (Improved)",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, tu PJ se cura vida igual a rangos en Toughened."
+    },
+    {
+        "nombre": "Tricky Target",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace"],
+        "descripcion": "Tu vehículo cuenta como -1 silueta cuando sea atacado."
+    },
+    {
+        "nombre": "Trust the Captain",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["Cleric", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Haz una tirada DC 6 Leadership. Si tienes éxito, por el resto del encuentro, los aliados a 20’ tienen +1 rango en Discipline igual a rangos en Trust the Captain."
+    },
+    {
+        "nombre": "Tuned Maneuvering Thrusters",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. Tu vehículo tiene +1 en handling por rango en Tuned Maneuvering Thrusters."
+    },
+    {
+        "nombre": "Unremarkable (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Monk", "Rogue"],
+        "descripcion": "Tu PJ puede extender los efectos de unremarkable a un número de aliados a 20’ igual a rangos en Deception."
+    },
+    {
+        "nombre": "Well Rounded",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Elige 2 no-mágicas skills. Se convierten en profesionales y agregas un rango a una de ellas, si no tiene rangos."
+    },
+    {
+        "nombre": "A Step Ahead",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, tu PJ puede gastar 2 de estrés para tener +1 Cunning por todo el encuentro."
+    },
+    {
+        "nombre": "Back-to-Back",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Mientras tengas uno o más aliados a 5’, todos ganáis +1VE en todas las tiradas de combate. Si otro PJ tiene esta habilidad se sigue acumulando."
+    },
+    {
+        "nombre": "Bodyguard (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Debes tener Bodyguard. Cuando un aliado que estés protegiendo reciba el ataque, puedes elegir recibirlo tú."
+    },
+    {
+        "nombre": "Bolstered Armor",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. Tu vehículo tiene +1 de armadura por rango en Bolstered Armor."
+    },
+    {
+        "nombre": "By the Book",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Una vez por encuentro, gasta 2 de estrés a una tirada de combate, y agrega al resultado puntos de ventajas igual a rangos en By the Book."
+    },
+    {
+        "nombre": "Can’t We Talk About This?",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard", "Gunslinger", "Necromancer", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Tu PJ hace una tirada de Charm o Deception vs Discipline del enemigo no nemesis a 30’. Si es exitosa, el objetivo no puede atacarte o usar habilidades hostiles hasta el final de tu siguiente turno. Puedes gastar 2 puntos de ventaja para agregar más rondas y/o 1CR para extender el efecto a todos los aliados del objetivo a 15’. Este efecto acaba inmediatamente si se ataca al objetivo o aliados de este."
+    },
+    {
+        "nombre": "Capital Sendoff (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Capital Sendoff. Sufren una colisión mayor en vez de menor."
+    },
+    {
+        "nombre": "Center of Being (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Debes tener Center of Being. Gasta 1 de estrés para que sea un incidental."
+    },
+    {
+        "nombre": "Commanding Presence",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión, puedes hacer una tirada Cool vs Discipline para forzar a un objetivo no nemesis a abandonar el encuentro."
+    },
+    {
+        "nombre": "Comrades in Arms",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Una vez por encuentro, haz una tirada de Discipline DC 6. Si es exitoso, tu PJ y 1 aliado por cada éxito a rango 20’, gana +1 a todas las defensas por todo el encuentro. Si se aleja más de 20’ de ti, pierde el beneficio."
+    },
+    {
+        "nombre": "Conduit",
+        "tier": 4,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Cleric", "Druid", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Una vez por encuentro, puedes gastar 1 punto de héroe y lanzar un hechizo como maniobra en vez de acción."
+    },
+    {
+        "nombre": "Deadeye",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Después de infligir un Critical Injury, puedes gastar 2 de estrés y elegir el crítico de la misma severidad."
+    },
+    {
+        "nombre": "Deadly Accuracy",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando compres este talento, elige una habilidad de combate. Añade +1 daño por cada rango en esa habilidad. No puedes elegir la misma más de una vez y no se acumula con dotes que elijan esa habilidad para agregar daño."
+    },
+    {
+        "nombre": "Death Rage",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker"],
+        "descripcion": "Si tu PJ tiene alguna herida crítica, añade +2 por cada una de esas heridas."
+    },
+    {
+        "nombre": "Defensive",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Cleric", "Fighter", "Monk", "Paladin"],
+        "descripcion": "+1 a todas las defensas por cada rango en Defensive."
+    },
+    {
+        "nombre": "Defensive Driving",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Ace"],
+        "descripcion": "+1 a las defensas de tu vehículo, por cada rango en Defensive Driving."
+    },
+    {
+        "nombre": "Deflection",
+        "tier": 4,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Berserker", "Cleric", "Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Reflect. Después de usar Reflect, puedes gastar 1 punto de héroe para moverte hacia el enemigo 30’."
+    },
+    {
+        "nombre": "Distracting Behavior (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Distracting Behavior. Puedes rerolear un dado del enemigo, priorizando 1d8, si no lo hubiese 1d10, y escoger el peor resultado."
+    },
+    {
+        "nombre": "Dodge (Improved)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Dodge. Después de usar Dodge, puedes moverte como incidental out of turn, después de recibir o esquivar el ataque."
+    },
+    {
+        "nombre": "Don't Shoot!",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Rogue", "Sorcerer"],
+        "descripcion": "Una vez por sesión, haz una tirada de Charm DC 7. En caso de éxito, no pueden hacerte objetivo de habilidades de combate hasta el final del encuentro o que hagas alguna acción perjudicial contra cualquier enemigo."
+    },
+    {
+        "nombre": "Double or Nothing (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Double or Nothing. En caso de éxito en Double or Nothing, ganas el doble de éxitos restantes."
+    },
+    {
+        "nombre": "Elementalist (Supreme)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Druid", "Sorcerer", "Wizard"],
+        "descripcion": "Debes tener Elementalist (Improved). Si casteas un hechizo de barrera, aumentado o de transformación, el objetivo gana los mismos efectos que Elementalist (Improved)."
+    },
+    {
+        "nombre": "Enduring",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cada rango de Enduring aumenta tu protección +1."
+    },
+    {
+        "nombre": "Field Commander (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Fighter", "Paladin"],
+        "descripcion": "Debes tener Field Commander. Ahora afecta a un total de aliados igual al doble de Presence. Puedes gastar 1 de estrés para hacer una acción out of turn en vez de maniobra out of turn."
+    },
+    {
+        "nombre": "Flicker Step",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Si casteas un hechizo de la habilidad Arcana, puedes gastar 3 puntos de ventaja o 1CR para teletransportarte a 80’ que puedas ver."
+    },
+    {
+        "nombre": "Fortune Favors the Bold",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión como incidental, sufre 2 de estrés para convertir un punto de GM en un punto de héroe."
+    },
+    {
+        "nombre": "Full Throttle (Improved)",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Debes tener Full Throttle. Sufre 1 de estrés para que sea una maniobra y baja a DC4."
+    },
+    {
+        "nombre": "How Convenient!",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Alchemist", "Gunslinger", "Rogue"],
+        "descripcion": "Una vez por sesión puedes hacer una tirada DC 7 Mechanics. En caso de éxito, un objeto envuelto en el encuentro (a discreción del GM) dejará de funcionar durante todo el encuentro."
+    },
+    {
+        "nombre": "It's Not that Bad",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Cleric", "Druid", "Necromancer", "Wizard"],
+        "descripcion": "Una vez por sesión haz una tirada de Medicine DC variable, dependiendo de la herida crítica que reciba. Para evitar que reciba esa herida crítica."
+    },
+    {
+        "nombre": "Masterful Casting",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Cuando castees un hechizo, puedes usar 1CR para activar hasta 3 cualidades de golpe."
+    },
+    {
+        "nombre": "Moving Target",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Si tu PJ ha actuado ya esta ronda, gana +1 a la defensa ranged por cada rango en Moving Target."
+    },
+    {
+        "nombre": "Not Today",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace"],
+        "descripcion": "Debes tener Signature Vehicle. Gasta 1 punto de héroe para evitar la destrucción de tu vehículo."
+    },
+    {
+        "nombre": "Parkour! (Improved)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Bard", "Fighter", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Parkour. Puedes gastar 2 de estrés en vez de 1 para moverte 60’ haciendo Parkour."
+    },
+    {
+        "nombre": "Precise Aim",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Gunslinger", "Fighter", "Ranger", "Rogue"],
+        "descripcion": "Una vez por ronda, cuando hagas apuntar, puedes sufrir estrés igual a rangos en Precise Aim, para reducir las defensas, igual a rangos en Precise Aim, de ese enemigo para ese ataque."
+    },
+    {
+        "nombre": "Prey on the Weak",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Añade +1 daño por rango en Prey of the Weak en objetivos disoriented."
+    },
+    {
+        "nombre": "Rain of Death",
+        "tier": 4,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Ace", "Ranger"],
+        "descripcion": "Ignora la dificultad extra por Auto-fire este turno."
+    },
+    {
+        "nombre": "Reflect (Supreme)",
+        "tier": 4,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Ace", "Alchemist", "Berserker", "Cleric", "Fighter", "Monk", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Reflect (Improved). Si tu PJ no hizo ninguna tirada de combate en el turno anterior, puedes solo sufrir 1 de estrés para activar Reflect."
+    },
+    {
+        "nombre": "Resolve",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando tu PJ sufre estrés de forma involuntaria, sufre 1 menos por cada rango en Resolve hasta un mínimo de 0."
+    },
+    {
+        "nombre": "Scathing Tirade (Supreme)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Bard", "Gunslinger", "Necromancer", "Rogue", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Scathing Tirade. Puedes sufrir 1 de estrés para que Scathing Tirade sea una maniobra en vez de una acción."
+    },
+    {
+        "nombre": "Seen a Lot of Things",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Alchemist", "Cleric", "Druid", "Monk", "Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Cuando falles una tirada de Knowledge puedes gastar 3 puntos de ventaja para lanzar de nuevo en el siguiente turno."
+    },
+    {
+        "nombre": "Signature Spell (Improved)",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Signature Spell. Reduces el DC en 2 en vez de 1."
+    },
+    {
+        "nombre": "Strength of Faith",
+        "tier": 4,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Cleric", "Paladin"],
+        "descripcion": "Una vez por sesión, puedes agregar éxitos igual a Discipline y puntos de ventaja igual a Willpower al resultado de una tirada de Divine."
+    },
+    {
+        "nombre": "Steady Aim",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Alchemist", "Fighter", "Gunslinger", "Ranger", "Rogue"],
+        "descripcion": "Tu PJ no pierde los beneficios de apuntar si se mueve o hace otras acciones que no sea atacar."
+    },
+    {
+        "nombre": "Street Smarts",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión haz una tirada de Streetwise o Knowledge DC 9. En caso de éxito ganas una pista de algo importante que estuvieses buscando o mirando. Aparte reduces a partir del segundo rango de Street Smarts el DC en -1."
+    },
+    {
+        "nombre": "Unrelenting Skeptic",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando intenten usar Deception contra ti, agrega +1DC por rango en Vigilance."
+    },
+    {
+        "nombre": "Urban Combatant",
+        "tier": 4,
+        "activacion": "Active (Incidental, OOT)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Puedes gastar 1 punto de héroe cuando seas objetivo de un ataque en la ciudad. Tu oponente en vez de tener xDV, tiene +DC x, donde x serían las desventajas impuestas."
+    },
+    {
+        "nombre": "Venom-Soaked Blade",
+        "tier": 4,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Alchemist", "Bard", "Necromancer", "Ranger", "Rogue", "Warlock"],
+        "descripcion": "Si atacas con un arma Melee (Light) usando veneno, tu arma es como si tuviese Burn 2."
+    },
+    {
+        "nombre": "Altered Deal",
+        "tier": 5,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por sesión haz una tirada de Coercion DC 6 para cambiar radicalmente un trato en favor de tu PJ."
+    },
+    {
+        "nombre": "Armor Master (Supreme)",
+        "tier": 5,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Debes tener Armor Master (Improved). Una vez por ronda cuando tu PJ sufra una herida crítica, puedes sufrir 3 de estrés y reduces el resultado de la herida 10 x puntos de protección. Hasta un mínimo de 01."
+    },
+    {
+        "nombre": "Baleful Gaze",
+        "tier": 5,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Monk", "Ranger", "Rogue"],
+        "descripcion": "Cuando sea objetivo de un ataque de hasta 30’ puedes gastar 1 punto de héroe y aumentar la dificultad igual a rangos en Coercion."
+    },
+    {
+        "nombre": "Bodyguard (Supreme)",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Debes tener Bodyguard (Improved). Esta maniobra puede cubrir a tantos aliados a 5’ como rangos en Resilience."
+    },
+    {
+        "nombre": "Comrades in Arms (Improved)",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Debes tener Comrades in Arms. Gasta 1CR o 3 puntos de ventaja para también ganar +1 de protección o darle +1 de protección a un aliado."
+    },
+    {
+        "nombre": "Coordination Dodge",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando te hagan objetivo de un ataque, puedes gastar 1 punto de héroe para agregar +1DC por cada rango de Coordination."
+    },
+    {
+        "nombre": "Crushing Blow",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter", "Paladin"],
+        "descripcion": "Una vez por encuentro, antes de aplicar daño en un ataque melee, puedes gastar 4 de estrés para que tengas Breach 1 y Knockdown en tu ataque. Aparte si gastas 1CR puedes destruir un objeto que tenga en mano si no tiene la cualidad Reinforced."
+    },
+    {
+        "nombre": "Dedication",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cada rango en Dedication incrementa +1 una característica permanentemente. Nunca puede superar más de 6 y no puedes elegir la misma característica dos veces."
+    },
+    {
+        "nombre": "Double or Nothing (Supreme)",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Double or Nothing (Improved). También duplica los CR."
+    },
+    {
+        "nombre": "Full Throttle (Supreme)",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Debes tener Full Throttle (Improved). La velocidad máxima aumenta +2 en vez de +1."
+    },
+    {
+        "nombre": "Heavy Hitter",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Ranger"],
+        "descripcion": "Una vez por sesión gasta +1CR para agregar a Ranged Heavy o Gunnery Breach 1 o incrementar +1 el Breach si ya lo tuviese."
+    },
+    {
+        "nombre": "Indomitable",
+        "tier": 5,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Una vez por encuentro si tu PJ fuera a estar incapacitado por tener la vida o estrés a 0, puedes gastar un punto de héroe para que eso ocurra al final del siguiente turno. Si antes de que llegue ese final consigues recuperarte no estarás incapacitado."
+    },
+    {
+        "nombre": "Inside Person",
+        "tier": 5,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Alchemist", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Una vez por sesión, tu PJ puede gastar 1 punto de héroe y establecer que conoce información de la base enemiga o vehículo. Para el resto de la sesión tienes +1EX tú y tus aliados para todos los checks de todo lo que tenga que ver con esa base, enemigos en ella o vehículo/s."
+    },
+    {
+        "nombre": "Inspiring Leadership",
+        "tier": 5,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Haz una tirada DC 6 Leadership. En caso de éxito un número de aliados no superior a tu Presence añaden +1EX a su siguiente tirada."
+    },
+    {
+        "nombre": "Just Kidding!",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Rogue"],
+        "descripcion": "Una vez por ronda, puedes gastar 1 punto de héroe, para ignorar todas las PF tuyas y de aliados a 15’ para habilidades sociales."
+    },
+    {
+        "nombre": "Master",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cuando lo compres elige una habilidad. Una vez por encuentro puedes gastar 2 de estrés para reducir el DC en -2 durante esa ronda."
+    },
+    {
+        "nombre": "Master Demolitionist",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Alchemist", "Ranger", "Rogue"],
+        "descripcion": "Cuando uses Blast de un arma a escala personal, puedes gastar 1 punto de ventaja para que afecte a todos los personajes a 20’, o puedes gastar 1 CR para que afecte a todos los personajes a 30’."
+    },
+    {
+        "nombre": "Master Driver/Pilot",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Ace", "Fighter", "Paladin", "Rogue"],
+        "descripcion": "Una vez por ronda, puedes gastar 2 de estrés para usar una acción como maniobra si eres el piloto o el dueño de la montura."
+    },
+    {
+        "nombre": "Master Grenadier",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Alchemist", "Wizard"],
+        "descripcion": "El coste para activar Blast se reduce en 1, hasta un mínimo de 1."
+    },
+    {
+        "nombre": "Most Impressive",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Fighter", "Paladin"],
+        "descripcion": "Gastas 1CR para que tantos aliados como Presence tengas a 15’ puedan ganar +1EX en su siguiente tirada."
+    },
+    {
+        "nombre": "Power of Darkness",
+        "tier": 5,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Necromancer", "Warlock"],
+        "descripcion": "Una vez por sesión puedes usar esta maniobra. Ganas +1 de vida máxima y +1 de estrés máximo por cada punto de GM tenga el GM hasta el final del encuentro."
+    },
+    {
+        "nombre": "Prepare to be Boarded",
+        "tier": 5,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Ace", "Rogue"],
+        "descripcion": "Una vez por encuentro haz una tirada opuesta Coercion vs Discipline contra un vehículo enemigo. Si tienes éxito, sufre 1 de estrés por cada éxito que supere al enemigo. Si llega al máximo, paran y dejan que os metáis en la nave. Puedes gastar 1Cr o 4 puntos de ventaja para añadir Coercion a los puntos de estrés extras que generas."
+    },
+    {
+        "nombre": "Retribution",
+        "tier": 5,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Monk", "Paladin"],
+        "descripcion": "Una vez por ronda, si un adversario ataca a un aliado a 30’ tuya, puedes gastar 1 punto de héroe para golpear automáticamente al enemigo (si está al rango de tu arma), y hace daño de forma normal, pero con 1 éxito."
+    },
+    {
+        "nombre": "Superhuman Reflexes",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Ace", "Paladin", "Rogue"],
+        "descripcion": "Una vez por sesión ignoras 1 PF en Driving o Riding y agregas tantos éxitos como rangos en Cool."
+    },
+    {
+        "nombre": "Unrelenting Skeptic (Improved)",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Unrelenting Skeptic. Si eres objetivo de una tirada de Deception y esta falla, puedes gastar 1 punto de héroe y agregar una PF."
+    },
+    {
+        "nombre": "Whirlwind",
+        "tier": 5,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard", "Berserker", "Fighter", "Paladin", "Ranger", "Rogue"],
+        "descripcion": "Gastas 2 de estrés y haces este ataque: Haces un ataque contra todos los enemigos sin aumentar en +1DC a cada defensa del enemigo. Necesitas un arma Melee Light o Heavy."
+    },
+    {
+        "nombre": "Zealous Fire",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Cada vez que el GM gaste un punto de GM recuperas 2 de estrés."
+    },
+    {
+        "nombre": "Catfall",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando lances Athletics o Coordination para reducir daño de caida, añade +1VE. A parte, reduces el daño y estres por caida en 1 + rangos de Catfall."
+    },
+    {
+        "nombre": "Deflect Spell",
+        "tier": 1,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Cuando recibas daño por un hechizo, puedes gastar 3 de estres para reducir el daño en -2 + rangos en Deflect Spell."
+    },
+    {
+        "nombre": "Intuitive Casting",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Bard", "Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Puedes añadir +1d8 por rango en Intuitive Casting a un casteo si actuas antes que el enemigo objetivo. Para hechizos de area, si eliges no hacer objetivo no funciona."
+    },
+    {
+        "nombre": "Specialist Knowledge",
+        "tier": 1,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Elige un area donde serias experto. Cuando hagas una tirada de Knowledge que petenezca a esa area, la dificultad se reduce en -1 (minimo de 0)."
+    },
+    {
+        "nombre": "Street Slang",
+        "tier": 1,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Necromancer", "Rogue", "Sorcerer"],
+        "descripcion": "Cuando hagas tiradas sociales en compañias dudosas o criminales, puedes gastar x estres, donde x son los rangos en Street Slang, para agregar +xVE."
+    },
+    {
+        "nombre": "Familiar",
+        "tier": 2,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Elige una criatura de silueta 0. Si se le maltrata podrias perder a tu familiar. Con ella te comunicas telepaticamente y la unica accion que puede hacer es cambiar accion por maniobra. Una vez por ronda, puedes usar la maniobra de comandar a tu familiar, mientras el familiar este a 15’ tuya, puede usar la maniobra asistir +1VE a todas tus habilidades magicas por cada rango en Familiar."
+    },
+    {
+        "nombre": "Fighter’s Stance",
+        "tier": 2,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Fighter", "Monk", "Paladin"],
+        "descripcion": "Si has usado la maniobra Guarded Stance, puedes gastar 1 de estres para ignorar los malus de esa maniobra."
+    },
+    {
+        "nombre": "Prepared Spell",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Una vez por sesion tu pj puede castear un hechizo sin gastar estres."
+    },
+    {
+        "nombre": "Blindsense",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Mientras puedas oir, no ganas malus en tus ataques siempre que no sea superior a 10’ de distancia."
+    },
+    {
+        "nombre": "Blood Magic",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Cuando castees un hechizo, puedes sufrir 2 de vida en vez de estres."
+    },
+    {
+        "nombre": "Combat Caster",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Bard", "Cleric", "Druid", "Necromancer", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Una vez por sesion puedes agregar gratuitamente Deadly a tu hechizo."
+    },
+    {
+        "nombre": "Distant Spell",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Sorcerer"],
+        "descripcion": "Una vez por sesion puedes alejar la distancia del hechizo sin aumentar la dificultad unos 30’."
+    },
+    {
+        "nombre": "Familiar (Improved)",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Familiar. Puedes sufrir 2 de estres para hacer una tirada de tu habilidad magica DC 2. Si superas puedes oir y ver desde tu familiar una ronda, exitos extras pueden usarse en alargar rondas. La asistencia que te da tu familiar es ahora +2VE."
+    },
+    {
+        "nombre": "Magic Resistance",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Si eres objetivo de un hechizo, el enemigo tiene -1DV. Cuando tengas que resistir un efecto magico ganas +1VE."
+    },
+    {
+        "nombre": "Pinning Fire",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Selecciona a un objetivo en rango de tu arma. Hasta el principio de tu siguiente turno, -1DV a todos las tiradas y sufre 1 de estres."
+    },
+    {
+        "nombre": "Shape Spell",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": true,
+        "clases": ["Cleric", "Druid", "Paladin", "Sorcerer", "Wizard"],
+        "descripcion": "Cuando castees un hechizo con Blast, gasta 1 punto de ventaja para excluir a tantos aliados como rangos en Shape Spell."
+    },
+    {
+        "nombre": "Shield Master",
+        "tier": 3,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Cleric", "Fighter", "Paladin"],
+        "descripcion": "Mientras tengas un escudo puedes gastar 1 de estres y tus defensas suben +1."
+    },
+    {
+        "nombre": "Sneak Attack",
+        "tier": 3,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Ranger", "Rogue"],
+        "descripcion": "Una vez por ronda, sufre 1 de estres para apuntar y añadir Pierce 2 a tu ataque, o +1Pierce si ya tenia el arma, para el siguiente ataque."
+    },
+    {
+        "nombre": "Turn Undead",
+        "tier": 3,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["Cleric", "Paladin"],
+        "descripcion": "Todas las criaturas no muertas a 20’ deben hacer una tirada de miedo igual a tu Discipline +1d3 DC. Todas las que fallen deben gastar su maniobra para alejarse de la fuente. Cada rango en este talento aumenta +30’ de distancia."
+    },
+    {
+        "nombre": "Assassin Strike",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Rogue"],
+        "descripcion": "Despues de atacar con un ataque melee, puedes gastar 1 punto de heroe para moverte sin provocar ataque como incidental."
+    },
+    {
+        "nombre": "Blood Magic (Improved)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Blood Magic. Puedes sufrir 1 herida adicional y agregar un efecto de +1DC sin aumentar la dificultad."
+    },
+    {
+        "nombre": "Familiar (Supreme)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Familiar (Improved). Gasta 1 punto de heroe y castea desde tu familiar."
+    },
+    {
+        "nombre": "Flurry of Blows",
+        "tier": 2,
+        "activacion": "Active (Maneuver)",
+        "ranked": false,
+        "clases": ["Monk"],
+        "descripcion": "Gastas estres hasta nivel de Coordination para tener la cualidad Linked igual al estres gastado en tus ataques Brawl."
+    },
+    {
+        "nombre": "Mage Hunter",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Cuando seas objetivo de un hechizo con maldicion, haz una tirada de Discipline DC 7. Reduce el DC en -1 por rangos de Mage Hunter, desde el segundo nivel de talento."
+    },
+    {
+        "nombre": "Mystic Theurge (Improved)",
+        "tier": 3,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Mystic Theurge. Puedes usar la habilidad 2 veces por encuentro."
+    },
+    {
+        "nombre": "Pinning Fire (Improved)",
+        "tier": 4,
+        "activacion": "Active (Action)",
+        "ranked": false,
+        "clases": ["All"],
+        "descripcion": "Debes tener Pinning Fire. Puedes afectar a un número de objetivos igual a rangos en Pinning Fire."
+    },
+    {
+        "nombre": "Reflexive Barrier",
+        "tier": 4,
+        "activacion": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "clases": ["Necromancer", "Sorcerer", "Warlock", "Wizard"],
+        "descripcion": "Una vez por sesión, tu pj puede castear un hechizo Barrier como out of turn incidental."
+    },
+    {
+        "nombre": "Sneak Attack (Improved)",
+        "tier": 4,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Sneak Attack. Una vez por ronda puedes gastar 1 punto de estres para aparte de agregar lo que indica Sneak Attack, agregar Vicious 2 o incrementar +1Vicious si ya lo tenía el arma."
+    },
+    {
+        "nombre": "Barbaric Strength",
+        "tier": 5,
+        "activacion": "Passive",
+        "ranked": false,
+        "clases": ["Berserker", "Fighter"],
+        "descripcion": "Puedes llevar armas Melee Heavy a una mano."
+    },
+    {
+        "nombre": "Blood Magic (Supreme)",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Necromancer", "Warlock", "Wizard"],
+        "descripcion": "Debes tener Blood Magic (Improved). Una vez por sesión, puedes sufrir 1CR y bajas la dificultad de tu siguiente hechizo en -3 hasta un mínimo de 0."
+    },
+    {
+        "nombre": "Bouncing Spell",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Sorcerer", "Wizard"],
+        "descripcion": "Cuando casteas un hechizo que haga objetivo a un enemigo, puedes gastar 1CR o 3 puntos de ventajas para relanzar el hechizo a otro objetivo a 30’ de ese primer objetivo. Así hasta que falles o te quedes sin objetivos. No puedes darle dos veces al mismo objetivo."
+    },
+    {
+        "nombre": "Sneak Attack (Supreme)",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Bard", "Ranger", "Rogue"],
+        "descripcion": "Debes tener Sneak Attack (Improved). Una vez por encuentro, puedes agregar 1CR a un único ataque."
+    },
+    {
+        "nombre": "Turn Undead (Improved)",
+        "tier": 5,
+        "activacion": "Active (Incidental)",
+        "ranked": false,
+        "clases": ["Cleric", "Paladin"],
+        "descripcion": "Debes tener Turn Undead. Cuando hagas una acción de Turn Undead, puedes gastar 1 punto de héroe y hacer 2 de estres a todos los que fallen la tirada de miedo. A parte, puedes usar la maniobra de concentración para mantener el miedo más rondas."
+    },
+    {
+        "nombre": "Multiataque",
+        "tier": 2,
+        "activacion": "Active (Action)",
+        "ranked": true,
+        "clases": ["All"],
+        "descripcion": "Los siguientes niveles que compres esta dote deben ser Tier 3 y después Tier 4. Cuando tomas la acción de atacar, puedes atacar tantas veces extras como niveles en Multiataque. Al mismo objetivo o diferentes objetivos siempre que estén a tu alcance. Este talento no vale para Gunnery."
+    }
+]
