@@ -1,8 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const mongoUri = process.env.MONGO_URI;
 const cors = require('cors');
 const talentosRouter = require('./routes/talentos');
-const Talento = require('./models/Talento'); //Importa el modelo de Talento
+const Talento = require('./models/Talento');
 const fs = require('fs');
 const path = require('path');
 
@@ -10,9 +11,9 @@ const app = express();
 const port = 3000;
 
 const corsOptions = {
-    origin: 'http://localhost:8081', // Cambia esto a la URL de tu aplicación Vue
+    origin: process.env.CORS_ORIGIN || 'http://localhost:8081',
     optionsSuccessStatus: 200
-  };
+};
 
 // Usa CORS
 app.use(cors(corsOptions));
@@ -20,16 +21,17 @@ app.use(cors(corsOptions));
 //Analiza los cuerpos de los json
 app.use(express.json());
 
-//Conexión MongoDB
-mongoose.connect('mongodb://localhost:27017/Mytorias', {
+// Conexión MongoDB
+mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/Mytorias';
+mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
     console.log('Conectado a MongoDB');
-    //Lógica para insertar talentos desde un archivo JSON
+    // Lógica para insertar talentos desde un archivo JSON
     insertarTalentosDesdeJSON();
 }).catch((err) => {
-    console.error('Error de conexion: ', err);
+    console.error('Error de conexión: ', err);
 });
 
 //Rutas para talentos (talentosRouter)
