@@ -11,7 +11,7 @@ const app = express();
 const port = 3000;
 
 const corsOptions = {
-    origin: process.env.CORS_ORIGIN || 'http://localhost:8081',
+    origin: process.env.CORS_ORIGIN || 'https://pablocode87.github.io/MytoriasFront/',
     optionsSuccessStatus: 200
 };
 
