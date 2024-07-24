@@ -6,8 +6,8 @@ services:
     ports:
       - "3001:3000"
     environment:
-      - MONGO_URI=mongodb://mongo:27017/Mytorias
-      - CORS_ORIGIN=http://localhost:8081
+      - MONGO_URI=${MONGO_URI}
+      - CORS_ORIGIN=${CORS_ORIGIN}
     depends_on:
       - mongo
 
