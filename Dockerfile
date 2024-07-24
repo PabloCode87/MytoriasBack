@@ -1,5 +1,5 @@
 # Usa la imagen base de Node.js
-FROM node:14
+FROM node:20
 # Establece el directorio de trabajo en el contenedor
 WORKDIR /usr/src/app
 # Copia los archivos de configuración del proyecto

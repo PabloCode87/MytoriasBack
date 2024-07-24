@@ -1,9 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const mongoUri = process.env.MONGO_URI;
+const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/Mytorias';
 const cors = require('cors');
-const talentosRouter = require('./routes/talentos');
-const Talento = require('./models/Talento');
+const talentosRouter = require('./routes/Talentos.js');
+const Talento = require('./models/Talento.js');
 const fs = require('fs');
 const path = require('path');
 
@@ -22,7 +22,6 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 // Conexión MongoDB
-mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/Mytorias';
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
