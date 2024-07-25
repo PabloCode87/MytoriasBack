@@ -34,7 +34,10 @@ mongoose.connect(mongoUri, {
 });
 
 //Rutas para talentos (talentosRouter)
-app.use('/api/talentos', talentosRouter);
+app.use('/api/talentos', (req, res, next) => {
+    console.log('Solicitud recibida en /api/talentos');
+    next();
+}, talentosRouter);
 
 //Ruta de ejemplo
 app.get('/', (req, res) => {

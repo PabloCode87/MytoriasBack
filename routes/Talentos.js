@@ -24,8 +24,9 @@ router.get('/', async (req, res) => {
     // Obtener talentos con los filtros aplicados
     const talentos = await Talento.find(query);
     res.json(talentos);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
+  } catch (err) {
+    console.error('Error al obtener talentos:', err);
+    res.status(500).json({ message: 'Error al obtener talentos' });
   }
 });
 
