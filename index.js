@@ -11,7 +11,7 @@ const app = express();
 const port = 3000;
 
 const corsOptions = {
-    origin: process.env.CORS_ORIGIN || 'http://localhost:8080', // Ajusta esto según tu frontend
+    origin: process.env.CORS_ORIGIN || 'http://localhost:8081', // Ajusta esto según tu frontend
     optionsSuccessStatus: 200
 };
 
