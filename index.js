@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const talentosRouter = require('./routes/talentos');
-const Talento = require('./models/Talento'); //Importa el modelo de Talento
+const talentosRouter = require('./routes/Talentos.js');
+const Talento = require('./models/Talento.js'); //Importa el modelo de Talento
 const fs = require('fs');
 const path = require('path');
 
