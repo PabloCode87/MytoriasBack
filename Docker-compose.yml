@@ -6,8 +6,9 @@ services:
     ports:
       - "3000:3000"
     environment:
+      - PORT=3000
       - MONGO_URI=mongodb://mongo:mOSPKqoRfYlBvuvwrDsTcUKteynuGcWC@mongodb.railway.internal:27017
-      - CORS_ORIGIN=mytoriasfront-production.up.railway.app
+      - CORS_ORIGIN=http://mytoriasfront-production.up.railway.app
     depends_on:
       - mongo
 

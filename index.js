@@ -2,40 +2,40 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const talentosRouter = require('./routes/Talentos.js');
-const Talento = require('./models/Talento.js'); //Importa el modelo de Talento
+const Talento = require('./models/Talento.js'); // Importa el modelo de Talento
 const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000; // Usa el puerto del entorno o el 3000
 
 const corsOptions = {
-    origin: 'http://localhost:8081', // Cambia esto a la URL de tu aplicación Vue
+    origin: process.env.CORS_ORIGIN || 'http://localhost:8081', // Usa la variable de entorno o localhost
     optionsSuccessStatus: 200
-  };
+};
 
 // Usa CORS
 app.use(cors(corsOptions));
 
-//Analiza los cuerpos de los json
+// Analiza los cuerpos de los json
 app.use(express.json());
 
-//Conexión MongoDB
-mongoose.connect('mongodb://localhost:27017/Mytorias', {
+// Conexión MongoDB
+mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
     console.log('Conectado a MongoDB');
-    //Lógica para insertar talentos desde un archivo JSON
+    // Lógica para insertar talentos desde un archivo JSON
     insertarTalentosDesdeJSON();
 }).catch((err) => {
     console.error('Error de conexion: ', err);
 });
 
-//Rutas para talentos (talentosRouter)
+// Rutas para talentos (talentosRouter)
 app.use('/api/talentos', talentosRouter);
 
-//Ruta de ejemplo
+// Ruta de ejemplo
 app.get('/', (req, res) => {
     res.send('Hola Mundo');
 });
@@ -44,7 +44,7 @@ app.listen(port, () => {
     console.log(`Servidor escuchando en http://localhost:${port}`);
 });
 
-//Función para insertar talentos desde un archivo JSON
+// Función para insertar talentos desde un archivo JSON
 async function insertarTalentosDesdeJSON() {
     try {
         // Lee el archivo JSON de talentos
@@ -53,13 +53,13 @@ async function insertarTalentosDesdeJSON() {
         const talentos = JSON.parse(data);
 
         for (let talento of talentos) {
-            //Verifica si ya existe un talento con el mismo nombre
+            // Verifica si ya existe un talento con el mismo nombre
             const existeTalento = await Talento.findOne({ nombre: talento.nombre });
             if (existeTalento) {
                 console.log(`El talento '${talento.nombre}' ya existe en la base de datos. No se insertará nuevamente.`);
                 continue;
             }
-            //Crea un nuevo documento de Talento y guárdalo en la base de datos
+            // Crea un nuevo documento de Talento y guárdalo en la base de datos
             const nuevoTalento = new Talento(talento);
             await nuevoTalento.save();
         }
