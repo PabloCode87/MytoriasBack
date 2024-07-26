@@ -33,7 +33,21 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 // Rutas para talentos (talentosRouter)
-app.use('/api/talentos', talentosRouter);
+app.use('/api/talentos', async (req, res) => {
+    try {
+        const talentos = await Talento.find();
+        
+        // Asegúrate de que cada talento tenga la propiedad 'clases' como un array
+        const talentosConClases = talentos.map(talento => ({
+            ...talento._doc,
+            clases: talento.clases || []
+        }));
+
+        res.json(talentosConClases);
+    } catch (error) {
+        res.status(500).json({ error: 'Error al obtener talentos' });
+    }
+});
 
 // Ruta de ejemplo
 app.get('/', (req, res) => {
@@ -59,6 +73,10 @@ async function insertarTalentosDesdeJSON() {
                 console.log(`El talento '${talento.nombre}' ya existe en la base de datos. No se insertará nuevamente.`);
                 continue;
             }
+
+            // Asegúrate de que talento.clases sea un array
+            talento.clases = talento.clases || [];
+
             // Crea un nuevo documento de Talento y guárdalo en la base de datos
             const nuevoTalento = new Talento(talento);
             await nuevoTalento.save();
