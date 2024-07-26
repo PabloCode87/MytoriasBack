@@ -9,13 +9,13 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000; // Usa el puerto del entorno o el 3000
 
-const corsOptions = {
+/* const corsOptions = {
     origin: process.env.CORS_ORIGIN || 'http://localhost:8081', // Usa la variable de entorno o localhost
     optionsSuccessStatus: 200
-};
+}; */
 
 // Usa CORS
-app.use(cors(corsOptions));
+app.use(cors());
 
 // Analiza los cuerpos de los json
 app.use(express.json());
